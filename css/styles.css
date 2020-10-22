@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+* {
+    box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+
+html{
+    font-size: 10px;
+}
+.container__text {
+    display: flex;
+    flex-direction:row;
+	justify-content: center;
+	align-items: center;/*выравнивание вдоль поперечной оси*/
+	
+	background-color: #f6f6f6;
+   
+}
+
+.line::after{
+    content: '';
+    color: #dddbdb;
+    border-top: 5px solid #dddbdb;
+    width: 45px;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+.container {
+    display: flex;
+    flex-direction:row;
+	justify-content: center;
+	align-items: center;/*выравнивание вдоль поперечной оси*/
+	padding: 0 0 100px 0;
+    background-color: #f6f6f6;
+   
+   
+   
+}
+.col {
+    margin: 10px 10px;
+    padding: 0 0 100px 0;
+	 width: 270px; 
+    height: 270px; 
+    position: relative;
+    transition: all .3s ease-in-out;
+  
+   
+}
+ .post__img{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+       
+}
+
+.col :hover .socials,
+.col :focus .socials,
+.col :active .socials{
+    
+  opacity: 1;
+  
+}
+
+
+
+h1{
+    background-color:  #f6f6f6;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 3.4rem 'Lato', sans-serif;
+    letter-spacing: 5px;
+    padding: 100px 0 20px 0;
+    margin: 0;
+    }
+    .text{
+      
+        width: 560px; 
+        padding: 10px 0 60px 0; 
+        border: transparent;
+        text-align: center;
+        font: 300 1.6rem 'Lato', sans-serif;
+        background-color:  #f6f6f6;
+        margin: 0;           
+        }
+
+    .position{
+        font-size: 14px;
+    }
+
+.name {
+    font-size: 18px;
+}
+.socials{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color:#2ca8c6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    }
+   
+a{
+  
+background-color: #5ecbe7;
+    font-size: 28px;
+    padding: 0;
+    margin: 0 5px 0 5px;
+     color: white; 
+}
+
+
+
+
